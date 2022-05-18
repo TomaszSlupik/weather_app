@@ -1,0 +1,119 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.box {
+	width: 600px;
+	height: 400px;
+	background-color: black;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px black;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.form-group {
+	display: inline-block;
+	margin: 15px 15px;
+	width: 250px;
+}
+
+.btn {
+	background-color: #9400d3;
+	text-transform: uppercase;
+	border-color: white;
+}
+.btn:hover {
+	background-color: #9400d3;
+	border-color: white;
+}
+
+.photo {
+	width: 130px;
+	height: 100px;
+	margin-left: 30px;
+}
+
+.info {
+	padding: 20px 20px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.temp {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.tempOne,
+.humidity,
+.three {
+	margin: 10px;
+}
+
+.line {
+	background-color: white;
+	width: 2px;
+	height: 19px;
+}
+
+.approved {
+	color: white;
+	margin-left: 20px;
+	margin-top: -20px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.btn2 {
+	margin-top: -5px;
+	margin-left: 285px;
+	width: 110px;
+}
+
+.cityName,
+.resultTemp,
+.resultHumidity,
+.resultWeather {
+	margin-top: -20px;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-left: 20px;
+	color: white;
+	font-weight: bold;
+	text-shadow: 5px 5px 10px;
+}
+
+.resultHumidity,
+.resultWeather {
+	margin-left: 60px;
+}
+
+.tempTwo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
